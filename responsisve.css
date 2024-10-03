@@ -1,0 +1,22 @@
+@media (min-width : 0px) and (max-width : 992px) {
+    .row{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .first_main{
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+    .footer-sec-box{
+        border-right: none ;
+    }
+    .footer-sec-box_link{
+        flex-direction: column;
+    }
+   
+}
+@media (min-width : 0px) and (max-width : 1200px) {
+    .nav-item {
+        font-size: 13px;
+    }
+}

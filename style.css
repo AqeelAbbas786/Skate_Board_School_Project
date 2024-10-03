@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.nav-item{
+    font-size: 20px;
+    padding:0 20px 0 20px ;
+    border-radius: 25px;
+}
+.nav-link{
+    width: 100%;
+    border-radius: 25px;
+}
+.navbar-nav .active{
+    background-color: rgba(255, 0, 0, 0.872)
+}
+.nav-item .home_active {
+    color: aliceblue;
+}
+.nav-link:hover{
+color: aliceblue;
+}
+.nav-item:hover{
+    color: aliceblue;
+    background-color: rgba(255, 0, 0, 0.872);
+  }
+
+.fa-user{
+    margin-left: 30px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.643);
+    cursor: pointer;
+}
+.fa-search{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.718);
+    cursor: pointer;
+}
+
+/* MAIN */
+
+/* HERO SECTION */
+
+.second_img{
+    height: auto;
+    width: 100%;
+}
+.first_main{
+    font-weight: 900;
+    margin-left: 50px;
+}
+
+/* About Skating School */
+.third_main_bg_img{
+    height: auto;
+    width: auto;
+    background-image: url(./images/about_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Footer */
+
+.footer{
+    border-top: 2px solid rgba(255, 0, 0, 0.77);
+    
+}
+.footer-second{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.btn-outline-danger{
+    padding: 10px 30px 10px 30px;
+}
+.footer-sec-box{
+    border-right: 2px solid rgba(255, 0, 0, 0.73);
+    margin: 40px;
+}
+.footer-third{
+    font-size: 20px;
+    width: 100%;
+    color: aliceblue;
+    height: 100px;
+}
+.footer-third-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
