@@ -9,8 +9,21 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
   <link rel="stylesheet" href="./style.css">
-
   <link rel="stylesheet" href="./responsisve.css">
+  <style>
+    .pointer{
+      cursor: pointer;
+    }
+    .hover{
+      background-color: #f0390f;
+      color: aliceblue;
+      border-radius: 20px;
+      width: 50%;
+      text-align: center;
+      height: 30px;
+      padding-top: 5px;
+    }
+  </style>
 </head>
 
 <body>
@@ -18,7 +31,7 @@
 
   <!-- NAVBAR -->
 
-  <nav class="navbar navbar-expand-lg ">
+  <nav class="navbar navbar-expand-lg  ">
     <div class="container">
       <a class="navbar-brand me-auto " href="#">
         <img src="./images/logo.png" alt="">
@@ -30,19 +43,19 @@
       <div class="collapse navbar-collapse " id="navbarNav">
         <ul class="navbar-nav ms-auto me-auto  ">
           <li class="nav-item active">
-            <a class="nav-link home_active " aria-current="page" href="#">HOME</a>
+            <a class="nav-link home_active " aria-current="page" href="#hero">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT</a>
+            <a class="nav-link" href="#second-hero">SKATING</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">SKATING</a>
+            <a class="nav-link" href="#third-hero">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">SHOP</a>
+            <a class="nav-link" href="#four-hero">SHOP</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT US</a>
+            <a class="nav-link" href="#contact-us">CONTACT US</a>
           </li>
         </ul>
         <i class="fa fa-user me-5" aria-hidden="true"></i>
@@ -57,7 +70,7 @@
 
     <!-- HERO SECTION -->
 
-    <div class="row">
+    <div class="row" id="hero">
       <div class="col-lg-4 col-md-5 col-sm-6  first_main ">
         <img class="first_img ms-5 mt-5" src="./images/top_icon.png" alt="">
         <h2 class="first_text mt-5 ms-5 display-4 fw-bolder">
@@ -67,7 +80,7 @@
           <br>
           School
         </h2>
-        <h6 class="first_text_read ms-5 mt-5 fw-bold">READ MORE</h6>
+        <h6 class="first_text_read ms-5 mt-5 fw-bold pointer hover">READ MORE</h6>
       </div>
       <div class=" col-lg-7 col-md-7 col-sm-12">
         <figure>
@@ -78,10 +91,10 @@
 
     <!-- Skateboard Class -->
 
-    <div class="container-fluid d-flex flex-column mt-5 mb-5">
+    <div class="container-fluid d-flex flex-column mt-5 mb-5" id="second-hero" >
       <div class="text-center ">
         <h1 class="fw-bold">Our Skating Class</h1>
-        <p>There are many variations of passages of Lorem</p>
+        <p>Discover the joy of skating with us! Whether you're a beginner or looking to enhance your skills, our skating classes offer something for everyone. With expert instructors, a friendly environment, and flexible schedules, we make learning to skate fun and exciting. Join us and glide into a world of confidence and thrill on wheels!</p>
       </div>
       <div class="container">
         <div class="row justify-content-center">
@@ -90,33 +103,31 @@
             <div class=" m-3 text-center mt-5 rounded text-light" style="background-color: #f0390f;">
               <img class="mt-5" src="./images/class1.png" alt="">
               <h4 class="fw-bold mt-3 mb-4">Skateboard</h4>
-              <p class="w-75 ms-5">There are many variations of passages of Lorem Ipsum available, but the majority have
-                suffered alterationThere are many variations</p>
+              <p class="w-75 ms-5">There are many types of skateboards, each designed for different riding styles. From longboards to trick boards, choose the one that suits your needs for cruising or performing tricks.
+              </p>
               <br><br>
             </div>
-            <h6 class="mt-5 fw-bold">READ MORE</h6>
+            <h6 class="mt-5 fw-bold pointer hover">READ MORE</h6>
           </div>
 
           <div class="col-lg-4 col-sm-12">
             <div class=" m-3 text-center mt-5 rounded text-light" style="background-color: #3E0BCE;">
               <img class="mt-5" src="./images/class2.png" alt="">
-              <h4 class="fw-bold mt-3 mb-4">Skateboard</h4>
-              <p class="w-75 ms-5">There are many variations of passages of Lorem Ipsum available, but the majority have
-                suffered alterationThere are many variations</p>
+              <h4 class="fw-bold mt-3 mb-4">Skateboard <br>  Types</h4>
+              <p class="w-75 ms-5">There are many variations skateboards available, but most have been altered to suit different riding styles. From longboards, each type unique experience riders.</p>
               <br><br>
             </div>
-            <h6 class="mt-5 fw-bold">READ MORE</h6>
+            <h6 class="mt-5 fw-bold pointer hover">READ MORE</h6>
           </div>
 
           <div class="col-lg-4 col-sm-12 ">
             <div class=" m-3 text-center mt-5 rounded text-light  " style="background-color: #f0390f;">
               <img class="mt-5" src="./images/class3.png" alt="">
-              <h4 class="fw-bold mt-3 mb-4">Skateboard</h4>
-              <p class="w-75 ms-5">There are many variations of passages of Lorem Ipsum available, but the majority have
-                suffered alterationThere are many variations</p>
+              <h4 class="fw-bold mt-3 mb-4">Skateboard <br> Options</h4>
+              <p class="w-75 ms-5">There are numerous variations of skateboards, each designed with unique features. While many have been modified the core design various riding styles.</p>
               <br><br>
             </div>
-            <h6 class="mt-5 fw-bold">READ MORE</h6>
+            <h6 class="mt-5 fw-bold pointer hover">READ MORE</h6>
           </div>
 
         </div>
@@ -125,7 +136,7 @@
   </main>
 
   <!-- About Skating school -->
-  <div class="third_main_bg_img">
+  <div class="third_main_bg_img" id="third-hero" >
     <div class="row mb-5 d-flex align-items-center ">
       <div class="col-lg-5 col-md-4 col-sm-12 first_main ">
         <br><br>
@@ -136,10 +147,8 @@
           <br>
           School
         </h2>
-        <p class=" text-light">There are many variations of passages of Lorem Ipsum available, but the majority have
-          suffered alterationThere are many variatioThere are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alterationThere are many variationsns</p>
-        <h6 class="first_text_read  mt-5 fw-bold  text-light">READ MORE</h6>
+        <p class=" text-light">Our skating school offers a range of programs to suit all skill levels. Whether you’re a beginner or an experienced skater, we focus on personalized training to help you master the art of skating. Join us and improve your skills in a fun and supportive environment!</p>
+        <h6 class="first_text_read  mt-5 fw-bold  text-light pointer hover">READ MORE</h6>
       </div>
       <div class=" col-lg-6 col-md-7 col-sm-12">
         <figure>
@@ -154,7 +163,7 @@
   <div class="container-fluid d-flex flex-column mt-5 mb-5">
     <div class="text-center ">
       <h1 class="fw-bold">Skating Video</h1>
-      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+      <p>There are many types of skating videos available, but most have been altered to highlight various techniques, styles, and skill levels. From beginner tutorials to advanced tricks, these videos offer insights into the world of skating.</p>
     </div>
     <div class="container">
       <div class="row justify-content-center">
@@ -163,21 +172,21 @@
           <div class="   text-center mt-5 rounded text-light">
             <img src="./images/sakt1.png" alt="">
           </div>
-          <h6 class="mt-5 fw-bold">READ MORE</h6>
+          <h6 class="mt-5 fw-bold pointer hover">READ MORE</h6>
         </div>
 
         <div class="col-lg-4 col-md-8 col-sm-12 ">
           <div class=" text-center mt-5 rounded ">
             <img src="./images/sakt2.png" alt="">
           </div>
-          <h6 class="mt-5 fw-bold">READ MORE</h6>
+          <h6 class="mt-5 fw-bold pointer hover">READ MORE</h6>
         </div>
 
         <div class="col-lg-4 col-md-8 col-sm-12">
           <div class=" text-center mt-5 rounded  ">
             <img src="./images/sakt3.png" alt="">
           </div>
-          <h6 class="mt-5 fw-bold">READ MORE</h6>
+          <h6 class="mt-5 fw-bold pointer hover">READ MORE</h6>
         </div>
 
       </div>
@@ -185,7 +194,7 @@
   </div>
 
   <!-- Our Skate Shop -->
-  <div class="container">
+  <div class="container" id="four-hero" >
     <div class="row d-flex align-items-center ">
       <div class=" col-lg-6 col-md-7 col-sm-12">
         <figure>
@@ -199,34 +208,32 @@
           <br>
           Shop
         </h2>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-          alterationThere are many variatioThere are many variations of passages of Lorem Ipsum available, but the
-          majority have suffered alterationThere are many variationsns</p>
-        <h6 class="first_text_read  mt-5 fw-bold">BUY NOW</h6>
+        <p>Our skate shop offers a wide variety of products to meet every skater's needs. From boards and accessories to protective gear, we have everything to support your skating journey. Explore our collection for quality gear and expert advice.</p>
+        <h6 class="first_text_read  mt-5 fw-bold pointer hover">BUY NOW</h6>
       </div>
     </div>
   </div>
 
 
-  <div class="container footer "> 
+  <div class="container footer" id="contact-us" > 
     <div class="row justify-content-center footer-second">
     <div class="col-lg-4 footer-sec-box ">
       <h2 class=" fw-bold">CONTACT US</h2>
       <div class="d-flex mt-3"> 
-        <i class="fa fa-location-arrow me-3 " style="color: #5400f0;" aria-hidden="true"></i><h6>Locations</h6>
+        <i class="fa fa-location-arrow me-3 " style="color: #5400f0;" aria-hidden="true"></i><h6>Karahi,Pakistan</h6>
       </div>
       <div class="d-flex mt-3">
-        <i class="fa fa-phone me-3" style="color: #5400f0;" aria-hidden="true"></i><h6>Call +01 1234567890</h6>
+        <i class="fa fa-phone me-3" style="color: #5400f0;" aria-hidden="true"></i><h6> +92 3093235625</h6>
       </div>
       <div class="d-flex mt-3">
-        <i class="fa fa-envelope me-3" style="color: #5400f0;" aria-hidden="true"></i><h6>demo@gmail.com</h6>
+        <i class="fa fa-envelope me-3" style="color: #5400f0;" aria-hidden="true"></i><h6>aqeelabbas154023@gmail.com</h6>
       </div>
     </div>
     <div class="col-lg-6 ">
       <div>
         <h2 class="fw-bold">Newslatter</h2>
         <div class="d-flex mt-3">
-        <input class="form-control me-3" type="text" placeholder="Enter Your Email">
+        <input class="form-control me-3" type="text" placeholder="Enter Your Name">
         <input class="form-control me-5" type="text" placeholder="Enter Your Email">
         <button type="button" class="btn btn-outline-danger ms-auto " >SUBSCRIBE</button>
       </div>
@@ -234,11 +241,11 @@
       <div >
         <h2 class="fw-bold mt-3">Usefull Link</h2>
         <div class="d-flex footer-sec-box_link">
-        <p class="me-4">HOME</p>
-        <p class="me-4">ABOUT</p>
-        <p class="me-4">SKATING</p>
-        <p class="me-4">SHOP</p>
-        <p class="me-4">CONTACT US</p>
+        <p class="me-4 nav-item"><a class="nav-link" href="#hero"> HOME</a></p>
+        <p class="me-4 nav-item"><a class="nav-link" href="#third-hero"> ABOUT</a></p>
+        <p class="me-4 nav-item"><a class="nav-link" href="#second-hero">SKATING</a></p>
+        <p class="me-4 nav-item"><a class="nav-link" href="#four-hero">SHOP</a></p>
+        <p class="me-4 nav-item"><a class="nav-link " href="#contact-us"> CONTACT </a></p>
       </div>
       </div>
     </div>
@@ -246,7 +253,7 @@
   </div>
   <div class="d-flex footer-third " style="background-color: #f0390f;">
     <div class="footer-third-box container">
-    © 2020 All Rights Reserved. Design by Free html Templates
+    © 2024 All Rights Reserved | Powerred by Aqeel Abbas
   </div>
   </div>
 
